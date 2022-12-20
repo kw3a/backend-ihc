@@ -33,7 +33,7 @@ export default class CoursesController {
       'mode': request.input('mode'),
       'doc_url': doc_url,
       'image_url': image_url,
-      'area': request.input('area')
+      'cost': request.input('cost')
     })
 
     return created

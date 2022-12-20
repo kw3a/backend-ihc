@@ -1,4 +1,3 @@
-import { DateTime } from 'luxon'
 import { 
   BaseModel, 
   column, 
@@ -28,11 +27,5 @@ export default class Course extends BaseModel {
   public image_url: string
 
   @column()
-  public area: string
-
-  @column.dateTime({ autoCreate: true })
-  public createdAt: DateTime
-
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
-  public updatedAt: DateTime
+  public cost: number
 }

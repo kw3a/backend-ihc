@@ -11,7 +11,7 @@ export default class CourseSeeder extends BaseSeeder {
         'duration': 6,
         'doc_url': '/completar',
         'image_url': 'http://',
-        'area': 'Electronica'
+        'cost': 7000 
       },
       {
         'name': 'Diplomado en /completar',
@@ -20,7 +20,7 @@ export default class CourseSeeder extends BaseSeeder {
         'duration': 12,
         'doc_url': '/completar',
         'image_url': 'http://',
-        'area': 'Electronica'
+        'cost': 8000 
       },
       {
         'name': 'Diplomado en /completar',
@@ -29,7 +29,7 @@ export default class CourseSeeder extends BaseSeeder {
         'duration': 6,
         'doc_url': '/completar',
         'image_url': 'http://',
-        'area': 'Informatica y sistemas'
+        'cost': 7500 
       },
       {
         'name': 'Maestria en /completar',
@@ -38,7 +38,7 @@ export default class CourseSeeder extends BaseSeeder {
         'duration': 18,
         'doc_url': '/completar',
         'image_url': 'http://',
-        'area': 'Quimica'
+        'cost': 7200 
       },
       {
         'name': 'Diplomado en /completar',
@@ -47,7 +47,7 @@ export default class CourseSeeder extends BaseSeeder {
         'duration': 6,
         'doc_url': '/completar',
         'image_url': 'http://',
-        'area': 'Ingenieria Civil'
+        'cost': 6000 
       },
       {
         'name': 'Diplomado en /completar',
@@ -56,7 +56,7 @@ export default class CourseSeeder extends BaseSeeder {
         'duration': 12,
         'doc_url': '/completar',
         'image_url': 'http://',
-        'area': 'Quimica'
+        'cost': 7000 
       },
     ])
   }
